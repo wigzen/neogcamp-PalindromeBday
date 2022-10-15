@@ -205,6 +205,9 @@ function clickHandler(e) {
       resultDiv.textContent = "Yay! Your birthday is palindrome!";
     }
   }
+    else{
+    resultDiv.textContent = "Enter Date";
+  }
 }
 
 showBtn.addEventListener("click", clickHandler);
